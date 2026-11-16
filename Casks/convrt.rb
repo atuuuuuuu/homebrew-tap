@@ -15,6 +15,7 @@ cask "convrt" do
 
   zap trash: [
     "~/Library/Application Support/Convrt",
+    "~/Library/Logs/Convrt.log",
     "~/Library/Preferences/atu.testing.Convrt.plist",
   ]
 
