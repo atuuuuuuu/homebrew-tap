@@ -11,8 +11,7 @@ cask "scrollr" do
 
   app "Scrollr.app"
 
-  uninstall quit:       "io.github.atuuuuuuu.Scrollr",
-            login_item: "Scrollr"
+  uninstall quit: "io.github.atuuuuuuu.Scrollr"
 
   zap trash: "~/Library/Preferences/io.github.atuuuuuuu.Scrollr.plist"
 
